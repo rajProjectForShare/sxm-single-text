@@ -1,6 +1,10 @@
 // header.js (already in your repo, shown here just for clarity)
 console.log("sxm-single-text [CMS HEADER] script loaded");
 
+function openMenu() {
+    console.log("menu clicked");
+  }
+
 (function () {
   if (typeof window.jQuery === "undefined") {
     console.error("❌ sxm-single-text [CMS HEADER] jQuery is not available.");
@@ -15,9 +19,7 @@ console.log("sxm-single-text [CMS HEADER] script loaded");
     $(".sx-mega-panel.sx-open").removeClass("sx-open");
   }
 
-  function openMenu() {
-    console.log("menu clicked");
-  }
+  
 
   function openPanel(key) {
     closeAllPanels();
