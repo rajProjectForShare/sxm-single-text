@@ -3,12 +3,12 @@ console.log("sxm-single-text [CMS HEADER] script loaded");
 
 (function () {
   if (typeof window.jQuery === "undefined") {
-    console.error("❌ [CMS HEADER] jQuery is not available.");
+    console.error("❌ sxm-single-text [CMS HEADER] jQuery is not available.");
     return;
   }
 
   var $ = window.jQuery;
-  console.log("✔ [CMS HEADER] jQuery version:", $.fn.jquery);
+  console.log("✔ sxm-single-text [CMS HEADER] jQuery version:", $.fn.jquery);
 
   function closeAllPanels() {
     $(".sx-primary-item.sx-is-active").removeClass("sx-is-active");
