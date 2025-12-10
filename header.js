@@ -15,6 +15,10 @@ console.log("sxm-single-text [CMS HEADER] script loaded");
     $(".sx-mega-panel.sx-open").removeClass("sx-open");
   }
 
+  function openMenu() {
+    console.log("menu clicked");
+  }
+
   function openPanel(key) {
     closeAllPanels();
     if (!key) return;
