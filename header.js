@@ -1,5 +1,5 @@
 // header.js (already in your repo, shown here just for clarity)
-console.log(" [CMS HEADER] script loaded");
+console.log("sxm-single-text [CMS HEADER] script loaded");
 
 (function () {
   if (typeof window.jQuery === "undefined") {
